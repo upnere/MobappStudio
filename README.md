@@ -82,7 +82,7 @@ Downloads are heavily concentrated rather than evenly spread across the store. T
 
 Apart from GAME, the top of the list is dominated by everyday utility and communication apps: COMMUNICATION, TOOLS, PRODUCTIVITY, SOCIAL, PHOTOGRAPHY, and VIDEO_PLAYERS. These are high-frequency, broad-audience categories where a few dominant apps (messengers, browsers, players) absorb enormous install counts. That concentration is worth keeping in mind: a large share of a category's downloads often belongs to a small number of incumbents, so raw category size does not automatically translate into an easy opportunity.
 
-
+![Installs per category](images/installs_per_category_pie.png)
 
  FAMILY sits in fourth place at 8.28% — a meaningful slice of the market and notably the category we are asked to examine most closely. It is large enough to be commercially interesting without being as saturated by a few global giants as GAME or COMMUNICATION. We will revisit this in section 4.3, where downloads per app tell us whether a category's volume is shared across many competitors or captured by a few.
 
