@@ -64,7 +64,6 @@ Each subsection states what we measured, presents the results, and interprets th
 - **Total downloads:** 75,322,526,427
 - **Estimated total dollar value (paid apps only):** $291,140,168.79
 
-*Interpretation:* <!-- TODO: 2–3 sentences. e.g. how dominant free apps are, what the paid market is worth. -->
 
 ### 4.2 Downloads and value per category (percentages)
 
