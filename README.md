@@ -106,6 +106,7 @@ FAMILY ranked fourth in total downloads (8.28%) yet does not appear in this list
 |GAME | 945 | 14230608.0|
 |TRAVEL_AND_LOCAL | 219 | 13218663.0|
 |ENTERTAINMENT | 86 | 11449535.0|
+
 *Ratio = total installs in category ÷ number of apps in category. Apps with > 10,000,000 
 
 The takeaway is that category size and per-app yield must be read together. A high ratio can mean a few giants own everything (COMMUNICATION); a low ratio can mean the audience is real, but attention is fragmented (GAME, and likely FAMILY). Neither is automatically "good" - but they call for different strategies: differentiation and a niche in crowded categories, versus competing head-to-head with incumbents in concentrated ones.
@@ -152,7 +153,7 @@ The top of the price range is dominated by novelty "rich" apps rather than genui
 |MEDICAL | EP Cook Book | 200.00|
 |PRODUCTIVITY | cronometra-br | 154.99|
 |EVENTS | BP Fitness Lead Scanner | 109.99|
-* > $100.00
+*> $100.00
 
 FINANCE and LIFESTYLE topped the mean-price chart not because finance and lifestyle apps are systematically expensive, but because a handful of $400 novelty apps dragged those category averages upward. Category averages should be read with the outliers in mind, and ideally reported as medians.
 
