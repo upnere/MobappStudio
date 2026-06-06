@@ -20,7 +20,7 @@ This post treats those questions as a **scientific experiment**: we state assump
 ## 2. Hypothesis & Assumptions
 
 **Main hypothesis:**
-> Downloads on the Google Play Store are not evenly distributed but are heavily concentrated in a small number of categories — and those highest-volume categories are dominated by free apps. Consequently, the categories with the most downloads are not the categories with the highest prices: volume and price pull in opposite directions. This implies that the best opportunity for a new paid app is not the largest category, but a mid-sized category that both attracts a broad audience and has an established willingness to pay.
+> Play Store downloads concentrate in a few free-dominated categories, so the biggest categories are the cheapest — meaning the best opening for a paid app is a mid-sized, paid-friendly category rather than the largest one.
 
 **Sub-predictions we will test**:
 - A few categories will account for the majority of all installs (concentration, not uniformity).
