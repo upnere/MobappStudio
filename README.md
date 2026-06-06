@@ -45,7 +45,7 @@ This post treats those questions as a **scientific experiment**: we state assump
 
 > **Note on imputation:** filling `Rating` with the median keeps rows without inventing implausible data, but it creates an artificial spike at the median and slightly lowers variance — we keep this in mind when interpreting the rating distribution.
 
-After cleaning: **10357 apps** across **5 categories**.
+After cleaning: **9659 apps** across **5 categories**.
 
 ---
 
@@ -55,19 +55,25 @@ Each subsection states what we measured, presents the results, and interprets th
 
 ### 4.1 Market size - total downloads and dollars
 
-- **Total downloads:** {{total_installs}}
-- **Estimated total dollar value (paid apps only):** ${{total_revenue}}
+- **Total downloads:** 75,322,526,427
+- **Estimated total dollar value (paid apps only):** $291,140,168.79
 
 *Interpretation:* <!-- TODO: 2–3 sentences. e.g. how dominant free apps are, what the paid market is worth. -->
 
 ### 4.2 Downloads and value per category (percentages)
 
-An array/table of installs per category:
+Top 8 of installs per category:
 
 | Category | Installs | % of total |
 |----------|---------:|-----------:|
-| {{cat}}  | {{val}}  | {{pct}}%   |
-<!-- TODO: fill table from your groupby result -->
+|GAME | 1.344792e+10 | 17.85 |
+|COMMUNICATION | 1.103828e+10 | 14.65 |
+|TOOLS | 8.102772e+09 | 10.76 |
+|FAMILY | 6.237543e+09 | 8.28 |
+|PRODUCTIVITY | 5.793091e+09 | 7.69 |
+|SOCIAL | 5.487868e+09 | 7.29 |
+|PHOTOGRAPHY | 4.658148e+09 | 6.18 |
+|VIDEO_PLAYERS | 3.931903e+09 | 5.22 |
 
 **Pie chart — installs per category:**
 
@@ -78,11 +84,18 @@ An array/table of installs per category:
 
 ### 4.3 Downloads per app, by category (concentration)
 
-Ratio = total installs in category ÷ number of apps in category.
+Ratio = total installs in category ÷ number of apps in category. Apps with > 10,000,000
 
 | Category | Apps | Installs/app |
 |----------|-----:|-------------:|
-| {{cat}}  | {{n}}| {{ratio}}    |
+|COMMUNICATION | 315 | 35042147.0|
+|VIDEO_PLAYERS | 164 | 23975017.0|
+|SOCIAL | 239 | 22961790.0|
+|PHOTOGRAPHY | 281 | 16577038.0|
+|PRODUCTIVITY | 374 | 15489549.0|
+|GAME | 945 | 14230608.0|
+|TRAVEL_AND_LOCAL | 219 | 13218663.0|
+|ENTERTAINMENT | 86 | 11449535.0|
 <!-- TODO -->
 
 *Interpretation:* <!-- TODO: which categories are crowded vs. high-yield-per-app. This is the "is it worth competing here" signal. -->
@@ -116,9 +129,16 @@ Ratio = total installs in category ÷ number of apps in category.
 
 ### 4.7 Most expensive app per category
 
+App > $100
+
 | Category | App | Price |
 |----------|-----|------:|
-| {{cat}}  | {{app}} | ${{price}} |
+|LIFESTYLE | I'm Rich - Trump Edition | 400.00|
+|FINANCE | I Am Rich Premium | 399.99|
+|FAMILY | I am Rich Plus | 399.99|
+|MEDICAL | EP Cook Book | 200.00|
+|PRODUCTIVITY | cronometra-br | 154.99|
+|EVENTS | BP Fitness Lead Scanner | 109.99|
 <!-- TODO -->
 
 *Interpretation:* <!-- TODO -->
